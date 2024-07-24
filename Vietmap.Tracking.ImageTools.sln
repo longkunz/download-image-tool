@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vietmap.Tracking.ImageTools", "Vietmap.Tracking.ImageTools\Vietmap.Tracking.ImageTools.csproj", "{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tracking-nuget", "tracking-nuget", "{3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietmap.Common", "..\..\common\Vietmap.Common\Vietmap.Common.csproj", "{78E66851-BB8A-4674-965D-39E30B9CA2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietmap.Common.Serializers", "..\..\common\Vietmap.Common.Serializers\Vietmap.Common.Serializers.csproj", "{BDCD1156-DAE1-434A-91A6-DA149192C795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietmap.Tracking.Core", "..\..\common\Vietmap.Tracking.Core\Vietmap.Tracking.Core.csproj", "{732A6B20-4220-4D31-82EC-34DFD45986E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietmap.Tracking.DataModels", "..\..\common\Vietmap.Tracking.DataModels\Vietmap.Tracking.DataModels.csproj", "{5CEB96A7-9932-4609-9905-9BD4513B59A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietmap.Tracking.Requests", "..\..\common\Vietmap.Tracking.Requests\Vietmap.Tracking.Requests.csproj", "{A8EE797A-A10F-4BA4-920C-420D41A48C59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release_Test|Any CPU = Release_Test|Any CPU
+		Release|Any CPU = Release|Any CPU
+		taxi-data-service|Any CPU = taxi-data-service|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Release_Test|Any CPU.ActiveCfg = Release|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Release_Test|Any CPU.Build.0 = Release|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.taxi-data-service|Any CPU.ActiveCfg = Release|Any CPU
+		{36180557-A1F1-4A81-A2A7-E37DD1B24A7B}.taxi-data-service|Any CPU.Build.0 = Release|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Release_Test|Any CPU.ActiveCfg = Release_Test|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Release_Test|Any CPU.Build.0 = Release_Test|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.taxi-data-service|Any CPU.ActiveCfg = taxi-data-service|Any CPU
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3}.taxi-data-service|Any CPU.Build.0 = taxi-data-service|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Release_Test|Any CPU.ActiveCfg = Release_Test|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Release_Test|Any CPU.Build.0 = Release_Test|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.taxi-data-service|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCD1156-DAE1-434A-91A6-DA149192C795}.taxi-data-service|Any CPU.Build.0 = Debug|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Release_Test|Any CPU.ActiveCfg = Release|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Release_Test|Any CPU.Build.0 = Release|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.taxi-data-service|Any CPU.ActiveCfg = Debug|Any CPU
+		{732A6B20-4220-4D31-82EC-34DFD45986E7}.taxi-data-service|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Release_Test|Any CPU.ActiveCfg = Release_Test|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Release_Test|Any CPU.Build.0 = Release_Test|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.taxi-data-service|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6}.taxi-data-service|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Release_Test|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Release_Test|Any CPU.Build.0 = Release|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.taxi-data-service|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59}.taxi-data-service|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78E66851-BB8A-4674-965D-39E30B9CA2C3} = {3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}
+		{BDCD1156-DAE1-434A-91A6-DA149192C795} = {3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}
+		{732A6B20-4220-4D31-82EC-34DFD45986E7} = {3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}
+		{5CEB96A7-9932-4609-9905-9BD4513B59A6} = {3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}
+		{A8EE797A-A10F-4BA4-920C-420D41A48C59} = {3BA5C0D8-7098-4EAF-AF4D-3DEC6CD3AE6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {691E1520-883F-4D5B-9217-FBE4E0A11C78}
+	EndGlobalSection
+EndGlobal

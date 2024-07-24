@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Hangfire" Version="1.8.14" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.14" />
+    <PackageReference Include="Hangfire.Dashboard.BasicAuthorization" Version="1.0.2" />
+    <PackageReference Include="Hangfire.Storage.SQLite" Version="0.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="111.4.0" />
+    <PackageReference Include="Serilog" Version="4.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	<PackageReference Include="Serilog.AspNetCore" Version="6.0.0" />
+	<PackageReference Include="Serilog.Sinks.Console" Version="5.0.0" />
+	<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\Vietmap.Common.Serializers\Vietmap.Common.Serializers.csproj" />
+    <ProjectReference Include="..\..\..\common\Vietmap.Common\Vietmap.Common.csproj" />
+    <ProjectReference Include="..\..\..\common\Vietmap.Tracking.Core\Vietmap.Tracking.Core.csproj" />
+    <ProjectReference Include="..\..\..\common\Vietmap.Tracking.DataModels\Vietmap.Tracking.DataModels.csproj" />
+    <ProjectReference Include="..\..\..\common\Vietmap.Tracking.Requests\Vietmap.Tracking.Requests.csproj" />
+  </ItemGroup>
+
+</Project>
